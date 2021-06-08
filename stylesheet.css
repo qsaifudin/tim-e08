@@ -183,6 +183,23 @@ header {
 
 .heading h2 {
     font-weight: normal;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {
+        color: grey;
+    }
+
+    50% {
+        color: #191970;
+    }
+
+    100% {
+        color: grey;
+    }
 }
 
 .lesson {
