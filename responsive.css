@@ -12,10 +12,23 @@
         width: 50%;
         margin-bottom: 50px;
     }
+
+    .input {
+        width: 80%;
+    }
+
+    .btn {
+        width: 80%;
+        margin-right: unset;
+    }
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+    .top-wrapper .container img {
+        display: none;
+    }
+
     .header-right {
         display: none;
     }
@@ -25,8 +38,11 @@
     }
 
     .btn {
-        width: 100%;
+        /* width: 100%; */
+        margin: 0 20px;
     }
+
+
 
     .facebook {
         margin-bottom: 10px;
