@@ -80,6 +80,7 @@ a {
     font-size: 30px;
     font-family: sans-serif;
     padding-left: 13px;
+    opacity: 0.8;
 
 }
 
@@ -232,7 +233,7 @@ header {
 .lesson-icon p {
 
     margin-top: 10px;
-    color: #969696;
+    color: #525252;
 }
 
 .txt-contents {
@@ -240,7 +241,7 @@ header {
     display: inline-block;
     margin-top: 10px;
     font-size: 12px;
-    color: #b3aeb5;
+    color: #666666;
     font-family: 'Courier New', Courier, monospace;
 }
 
